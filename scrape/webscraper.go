@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// request and parse the front page
-	resp, err := http.Get("https://www.google.fr/#q=scrape")
+	resp, err := http.Get("https://news.ycombinator.com/")
 
 	if err != nil {
 		panic(err)
